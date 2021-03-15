@@ -147,7 +147,7 @@ var weeklyIncome= function(){
 }
 var income = prompt ("Do you want weekly or monthly income?");
 if (income=== "weekly"){
-  console.log("Your weekly income from all the shed is")
+  console.log("Your weekly income from all the sheds is "+ weeklyIncome()+"shillings")
 }
   
 
