@@ -143,6 +143,9 @@ var thirtyPlus={
 var thirty={
   months:["april","june","september","november"]
 }
+var thirtyless={
+  months:"february"
+}
 var sellingPrice= 45
 var weeklyProduction= function(){
   return 3500+3500+2800+2800
