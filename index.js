@@ -20,22 +20,28 @@ if (shed === "A"){
       else{
         var month = prompt("Please enter the month");
         for(var month = "january";"march";"may"){
-          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres")
+          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres");
+          {break};
         }
         for(var month="july";"august";){
-          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres")
+          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres");
+          {break};
         }
         for(var month="december";"october";){
-          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres")
+          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres");
+          {break};
         }
         for(var month="february";"null";){
-          console.log("The milk production in Shed A is "+ 400*7 +"litres")
+          console.log("The milk production in Shed A is "+ 400*7 +"litres");
+          {break};
         }
         for(var month="april";"june";){
-          console.log("The milk production in Shed A is "+ thirtyDays() +"litres")
+          console.log("The milk production in Shed A is "+ thirtyDays() +"litres");
+          {break};
         }
         for(var month="september";"november";){
-          console.log("The milk production in Shed A is "+ thirtyDays() +"litres")
+          console.log("The milk production in Shed A is "+ thirtyDays() +"litres");
+          {break};
         }
 
 
@@ -55,22 +61,28 @@ else if (shed=== "B"){
   else{
     var month = prompt("Please enter the month");
     for(var month = "january";"march";"may"){
-      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres");
+      {break};
     }
     for(var month="july";"august";){
-      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres");
+      {break};
     }
     for(var month="december";"october";){
-      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres");
+      {break};
     }
     for(var month="february";"null";){
-      console.log("The milk production in Shed B is "+ 500*7 +"litres")
+      console.log("The milk production in Shed B is "+ 500*7 +"litres");
+      {break};
     }
     for(var month="april";"june";){
-      console.log("The milk production in Shed A is "+ tDays +"litres")
+      console.log("The milk production in Shed A is "+ tDays +"litres");
+      {break};
     }
     for(var month="september";"november";){
-      console.log("The milk production in Shed A is "+ tDays +"litres")
+      console.log("The milk production in Shed A is "+ tDays +"litres");
+      {break};
     }
 
 
@@ -85,13 +97,16 @@ else if (shed==="C"){
   else{
     var month = prompt("Please enter the month");
     for(var month = "january";"march";"may"){
-      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres");
+      {break};
     }
     for(var month="july";"august";){
-      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres");
+      {break};
     }
     for(var month="december";"october";){
-      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres");
+      {break};
     }
     for(var month="february";"null";){
       console.log("The milk production in Shed B is "+ 500*7 +"litres")
