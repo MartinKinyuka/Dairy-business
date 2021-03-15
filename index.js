@@ -145,7 +145,7 @@ var weeklyProduction= function(){
 var weeklyIncome= function(){
   return weeklyProduction*sellingPrice
 }
-var income = prompt ("Weekly or monthly income?");
+var income = prompt ("Do you want weekly or monthly income?");
 if (income=== "weekly"){
   console.log("Your weekly income from all the shed is")
 }
