@@ -207,7 +207,10 @@ else{
     console.log("The monthly income for November is "+ totalDailyProd()*30 +"shillings");
     {break};
   }
-
+  while(monthly_income===thirtyless.months){
+    console.log("The monthly income for February is "+ totalDailyProd()*28 +"shillings");
+    {break};
+  }
 }
   
 
