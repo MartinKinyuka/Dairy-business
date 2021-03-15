@@ -100,7 +100,8 @@ else if (shed==="C"){
       console.log("The milk production in Shed A is "+ tDays +"litres")
     }
     for(var month="september";"november";){
-      console.log("The milk production in Shed A is "+ tDays +"litres")
+      console.log("The milk production in Shed A is "+ tDays +"litres");
+      {break}
     }
 
 
@@ -163,7 +164,11 @@ if (income=== "weekly"){
 else{
   var monthly_income= prompt("Please enter the month")
   while (montly_income=== thirtyPlus.months[0]){
-    console.log("The monthly income for January is   ")
+    console.log("The monthly income for January is "+ totalDailyProd()*31 +"shillings");
+    {break}
+  }
+  while (monthly_income=== thirtyPlus.months[1]){
+    console
   }
 }
   
