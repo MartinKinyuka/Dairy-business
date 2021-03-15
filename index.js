@@ -147,6 +147,9 @@ var thirtyless={
   months:"february"
 }
 var sellingPrice= 45
+var totalDailyProd= function(){
+  return 500+500+400+400
+}
 var weeklyProduction= function(){
   return 3500+3500+2800+2800
 }
@@ -159,6 +162,9 @@ if (income=== "weekly"){
 }
 else{
   var monthly_income= prompt("Please enter the month")
+  while (montly_income=== thirtyPlus.months[0]){
+    console.log("The monthly income for January is   ")
+  }
 }
   
 
