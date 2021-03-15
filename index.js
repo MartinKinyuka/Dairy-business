@@ -140,6 +140,9 @@ else{
 var thirtyPlus={
   months:["january","march","may","july","august","october","december"]
 }
+var thirty={
+  months:["april","june","september","november"]
+}
 var sellingPrice= 45
 var weeklyProduction= function(){
   return 3500+3500+2800+2800
