@@ -191,6 +191,23 @@ else{
     console.log("The monthly income for December is "+ totalDailyProd()*31 +"shillings");
     {break};
   }
+  while(monthly_income===thirty.months[0]){
+    console.log("The monthly income for April is "+ totalDailyProd()*30 +"shillings");
+    {break};
+  }
+  while(monthly_income===thirty.months[1]){
+    console.log("The monthly income for June is "+ totalDailyProd()*30 +"shillings");
+    {break};
+  }
+  while(monthly_income===thirty.months[2]){
+    console.log("The monthly income for September is "+ totalDailyProd()*30 +"shillings");
+    {break};
+  }
+  while(monthly_income===thirty.months[3]){
+    console.log("The monthly income for November is "+ totalDailyProd()*30 +"shillings");
+    {break};
+  }
+
 }
   
 
