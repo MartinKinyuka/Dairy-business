@@ -212,5 +212,7 @@ else{
     {break};
   }
 }
-  
-
+  var yearlyIncome= function(){
+    return totalDailyProd*365
+  }
+console.log("Your yearly income is "+ yearlyIncome +"shillings")
