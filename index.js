@@ -137,7 +137,9 @@ else{
            
       }
 }
-
+var thirtyPlus={
+  months:["january","march","may","july","august","october","december"]
+}
 var sellingPrice= 45
 var weeklyProduction= function(){
   return 3500+3500+2800+2800
@@ -148,6 +150,9 @@ var weeklyIncome= function(){
 var income = prompt ("Do you want weekly or monthly income?");
 if (income=== "weekly"){
   console.log("Your weekly income from all the sheds is "+ weeklyIncome()+"shillings")
+}
+else{
+  var monthly_income= prompt("Please enter the month")
 }
   
 
