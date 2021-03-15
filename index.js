@@ -77,8 +77,65 @@ else if (shed=== "B"){
        
   }
 }
-else {
-  
+else if (shed==="C"){
+  var report = prompt("Do you want weekly or monthly report?");
+  if(report === "weekly"){
+    console.log("The weekly production in Shed B is "+ 500*7 +"litres")
+  }
+  else{
+    var month = prompt("Please enter the month");
+    for(var month = "january";"march";"may"){
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+    }
+    for(var month="july";"august";){
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+    }
+    for(var month="december";"october";){
+      console.log("The milk production in  Shed B is "+ tOnDays() +"litres")
+    }
+    for(var month="february";"null";){
+      console.log("The milk production in Shed B is "+ 500*7 +"litres")
+    }
+    for(var month="april";"june";){
+      console.log("The milk production in Shed A is "+ tDays +"litres")
+    }
+    for(var month="september";"november";){
+      console.log("The milk production in Shed A is "+ tDays +"litres")
+    }
+
+
+       
+  }
+}
+else{
+  var report = prompt("Do you want weekly or monthly report?");
+      if(report === "weekly"){
+        console.log("The weekly production in Shed A is "+ 2800 +"litres")
+      }
+      else{
+        var month = prompt("Please enter the month");
+        for(var month = "january";"march";"may"){
+          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres")
+        }
+        for(var month="july";"august";){
+          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres")
+        }
+        for(var month="december";"october";){
+          console.log("The milk production in  Shed A is "+ thirtyOneDays() +"litres")
+        }
+        for(var month="february";"null";){
+          console.log("The milk production in Shed A is "+ 400*7 +"litres")
+        }
+        for(var month="april";"june";){
+          console.log("The milk production in Shed A is "+ thirtyDays() +"litres")
+        }
+        for(var month="september";"november";){
+          console.log("The milk production in Shed A is "+ thirtyDays() +"litres")
+        }
+
+
+           
+      }
 }
 
 
