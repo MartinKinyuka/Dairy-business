@@ -168,7 +168,28 @@ else{
     {break}
   }
   while (monthly_income=== thirtyPlus.months[1]){
-    console
+    console.log("The monthly income for March is "+ totalDailyProd()*31 +"shillings");
+    {break}
+  }
+  while (monthly_income===thirtyPlus.months[2]){
+    console.log("The monthly income for May is "+ totalDailyProd()*31 +"shillings");
+    {break};
+  }
+  while(monthly_income===thirtyPlus.months[3]){
+    console.log("The monthly income for July is "+ totalDailyProd()*31 +"shillings");
+    {break};
+  }
+  while(monthly_income===thirtyPlus.months[4]){
+    console.log("The monthly income for August is "+ totalDailyProd()*31 +"shillings");
+    {break};
+  }
+  while(monthly_income===thirtyPlus.months[5]){
+    console.log("The monthly income for October is "+ totalDailyProd()*31 +"shillings");
+    {break};
+  }
+  while(monthly_income===thirtyPlus.months[6]){
+    console.log("The monthly income for December is "+ totalDailyProd()*31 +"shillings");
+    {break};
   }
 }
   
