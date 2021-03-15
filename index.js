@@ -142,6 +142,9 @@ var sellingPrice= 45
 var weeklyProduction= function(){
   return 3500+3500+2800+2800
 }
+var weeklyIncome= function(){
+  return weeklyProduction*sellingPrice
+}
 var income = prompt ("Weekly or monthly income?");
 if (income=== "weekly"){
   console.log("Your weekly income from all the shed is")
